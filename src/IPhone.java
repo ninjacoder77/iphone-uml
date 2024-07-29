@@ -1,8 +1,8 @@
 public class IPhone implements AparelhoTelefonico, NavegadorInternet, ReprodutorMusical {
 
     @Override
-    public void ligar() {
-
+    public void ligar(String numero) {
+        System.out.println("Ligando para o numero: " + numero);
     }
 
     @Override
